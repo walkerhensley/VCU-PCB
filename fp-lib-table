@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "pretty")(type "KiCad")(uri "C:/Users/hensl/Documents/teensy.pretty-master")(options "")(descr ""))
+  (lib (name "name")(type "KiCad")(uri "C:/Users/hensl/Documents/KiCad")(options "")(descr ""))
+  (lib (name "watchdog")(type "KiCad")(uri "C:/Users/hensl/Downloads/KiCAD/2022-02-22_00-43-51/footprints.pretty")(options "")(descr ""))
+  (lib (name "teensy4.1")(type "KiCad")(uri "C:/Users/hensl/Documents/teensy.pretty-master")(options "")(descr ""))
+  (lib (name "amd")(type "KiCad")(uri "C:/Users/hensl/Documents/KiCad/2022-02-25_09-09-03/footprints.pretty")(options "")(descr ""))
+  (lib (name "switch")(type "KiCad")(uri "C:/Users/hensl/Documents/KiCad/2022-02-25_09-30-06/footprints.pretty")(options "")(descr ""))
+)
