@@ -1416,7 +1416,6 @@
   (no_connect (at 38.1 132.08) (uuid 7844e0f7-c0c5-4b77-a3ed-db307c1a815b))
   (no_connect (at 38.1 129.54) (uuid 7844e0f7-c0c5-4b77-a3ed-db307c1a815b))
   (no_connect (at 38.1 127) (uuid 7844e0f7-c0c5-4b77-a3ed-db307c1a815b))
-  (no_connect (at 38.1 124.46) (uuid 7844e0f7-c0c5-4b77-a3ed-db307c1a815b))
   (no_connect (at 116.84 123.19) (uuid aa79024d-ca7e-4c24-b127-7df08bbd0c75))
   (no_connect (at 116.84 115.57) (uuid c7af8405-da2e-4a34-b9b8-518f342f8995))
   (no_connect (at 78.74 55.88) (uuid d6d3a043-d252-43d9-8c0f-6a4b8174f93e))
@@ -1440,10 +1439,10 @@
   (no_connect (at 78.74 121.92) (uuid d6d3a043-d252-43d9-8c0f-6a4b8174f93e))
   (no_connect (at 78.74 124.46) (uuid d6d3a043-d252-43d9-8c0f-6a4b8174f93e))
   (no_connect (at 78.74 127) (uuid d6d3a043-d252-43d9-8c0f-6a4b8174f93e))
+  (no_connect (at 38.1 68.58) (uuid ebba8268-aca9-4d2a-87b1-a8ef86dc01d6))
   (no_connect (at 38.1 78.74) (uuid ebba8268-aca9-4d2a-87b1-a8ef86dc01d6))
   (no_connect (at 38.1 76.2) (uuid ebba8268-aca9-4d2a-87b1-a8ef86dc01d6))
   (no_connect (at 38.1 71.12) (uuid ebba8268-aca9-4d2a-87b1-a8ef86dc01d6))
-  (no_connect (at 38.1 68.58) (uuid ebba8268-aca9-4d2a-87b1-a8ef86dc01d6))
   (no_connect (at 154.94 120.65) (uuid f78e02cd-9600-4173-be8d-67e530b5d19f))
 
   (wire (pts (xy 213.36 111.76) (xy 213.36 113.03))
@@ -1772,6 +1771,13 @@
     (uuid 998b7fa5-31a5-472e-9572-49d5226d6098)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "WATCHDOG_OUTPUT" (shape input) (at 38.1 124.46 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b026a424-92ae-4090-9bec-97b6030392ed)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 17.544 124.3806 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "wheel_speed_sensor2" (shape input) (at 158.75 66.04 180) (fields_autoplaced)
@@ -2736,7 +2742,7 @@
   (symbol (lib_id "power:GNDREF") (at 78.74 142.24 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 88d23e0a-a25b-4026-a2e3-f92f8f492ad4)
-    (property "Reference" "#PWR?" (id 0) (at 85.09 142.24 0)
+    (property "Reference" "#PWR0101" (id 0) (at 85.09 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 81.915 142.6738 90)
@@ -2847,6 +2853,9 @@
     (path "/00000000-0000-0000-0000-000062160745"
       (reference "#PWR01") (unit 1) (value "GNDREF") (footprint "")
     )
+    (path "/88d23e0a-a25b-4026-a2e3-f92f8f492ad4"
+      (reference "#PWR0101") (unit 1) (value "GNDREF") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000621714f0"
       (reference "#PWR0102") (unit 1) (value "GNDREF") (footprint "")
     )
@@ -2897,9 +2906,6 @@
     )
     (path "/00000000-0000-0000-0000-000062183ab4"
       (reference "#PWR0118") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/88d23e0a-a25b-4026-a2e3-f92f8f492ad4"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006217773d"
       (reference "10k1") (unit 1) (value "10000") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
