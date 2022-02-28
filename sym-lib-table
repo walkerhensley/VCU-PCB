@@ -1,7 +1,7 @@
 (sym_lib_table
   (lib (name "ic1")(type "Legacy")(uri "C:/Users/hensl/Downloads/testing1-cache.lib")(options "")(descr ""))
   (lib (name "OLD_VCU_PARTS")(type "Legacy")(uri "C:/Users/hensl/Downloads/voltron-vcu-pcb-master/testing1-rescue.lib")(options "")(descr ""))
-  (lib (name "teensy_4.1")(type "Legacy")(uri "C:/Users/hensl/Documents/DEV-16771.lib")(options "")(descr ""))
+  (lib (name "teensy_4.1")(type "KiCad")(uri "C:/Users/hensl/Documents/DEV-16771.kicad_sym")(options "")(descr ""))
   (lib (name "watchdog")(type "Legacy")(uri "C:/Users/hensl/Downloads/KiCAD/2022-02-22_00-43-51/2022-02-22_00-43-51.lib")(options "")(descr ""))
   (lib (name "zzzzz")(type "Legacy")(uri "C:/Users/hensl/Documents/100SP1T1B4M2QE.lib")(options "")(descr ""))
   (lib (name "3switch")(type "Legacy")(uri "C:/Users/hensl/Documents/100SP1T1B4M2QE.lib")(options "")(descr ""))
