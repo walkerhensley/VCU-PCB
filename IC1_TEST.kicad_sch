@@ -2110,7 +2110,7 @@
     (property "Value" "B4B-XH-A_LF__SN_-!my_lib" (id 1) (at 132.7912 149.733 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502382-0470_1x04-1MP_P1.25mm_Vertical" (id 2) (at 133.35 142.24 0)
+    (property "Footprint" "Connector_Molex:Molex_SL_171971-0004_1x04_P2.54mm_Vertical" (id 2) (at 133.35 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B4B-XH-A-LF-SN_C144395.pdf" (id 3) (at 133.35 144.78 0)
@@ -2466,7 +2466,7 @@
     (property "Value" "Conn_01x03_Female" (id 1) (at 163.2712 54.991 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502382-0370_1x03-1MP_P1.25mm_Vertical" (id 2) (at 162.56 53.34 0)
+    (property "Footprint" "Connector_Molex:Molex_SL_171971-0003_1x03_P2.54mm_Vertical" (id 2) (at 162.56 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 162.56 53.34 0)
@@ -2486,7 +2486,7 @@
     (property "Value" "Conn_01x03_Female" (id 1) (at 164.5412 67.691 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502382-0370_1x03-1MP_P1.25mm_Vertical" (id 2) (at 163.83 66.04 0)
+    (property "Footprint" "Connector_Molex:Molex_SL_171971-0003_1x03_P2.54mm_Vertical" (id 2) (at 163.83 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 163.83 66.04 0)
@@ -2615,7 +2615,7 @@
     (property "Value" "Conn_01x02_Female" (id 1) (at 188.6712 81.661 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502382-0270_1x02-1MP_P1.25mm_Vertical" (id 2) (at 187.96 78.74 0)
+    (property "Footprint" "Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical" (id 2) (at 187.96 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 187.96 78.74 0)
@@ -2652,7 +2652,7 @@
     (property "Value" "Conn_01x03_Female" (id 1) (at 210.2612 72.771 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502382-0370_1x03-1MP_P1.25mm_Vertical" (id 2) (at 209.55 71.12 0)
+    (property "Footprint" "Connector_Molex:Molex_SL_171971-0003_1x03_P2.54mm_Vertical" (id 2) (at 209.55 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 209.55 71.12 0)
@@ -2916,7 +2916,7 @@
       (reference "IC1") (unit 1) (value "ADM3054WBRWZ-RL7-!my_lib") (footprint "amd:ADM3053BRWZ")
     )
     (path "/00000000-0000-0000-0000-00006216a189"
-      (reference "J1") (unit 1) (value "B4B-XH-A_LF__SN_-!my_lib") (footprint "Connector_Molex:Molex_CLIK-Mate_502382-0470_1x04-1MP_P1.25mm_Vertical")
+      (reference "J1") (unit 1) (value "B4B-XH-A_LF__SN_-!my_lib") (footprint "Connector_Molex:Molex_SL_171971-0004_1x04_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006216d761"
       (reference "LED1") (unit 1) (value "LED") (footprint "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z4.9mm")
@@ -2955,7 +2955,7 @@
       (reference "R10") (unit 1) (value "10000") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000621a4fe9"
-      (reference "SBUS_CONN1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_Molex:Molex_CLIK-Mate_502382-0370_1x03-1MP_P1.25mm_Vertical")
+      (reference "SBUS_CONN1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_Molex:Molex_SL_171971-0003_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006218db89"
       (reference "SW1") (unit 1) (value "SW_DIP_x03") (footprint "Button_Switch_THT:SW_DIP_SPSTx03_Piano_10.8x9.18mm_W7.62mm_P2.54mm")
@@ -2970,16 +2970,16 @@
       (reference "U2") (unit 1) (value "MAX6369KA+T") (footprint "watchdog:MAX6369KA&plus_T")
     )
     (path "/00000000-0000-0000-0000-000062193cc5"
-      (reference "WATCHDOG_RELAY_COILS1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_Molex:Molex_CLIK-Mate_502382-0270_1x02-1MP_P1.25mm_Vertical")
+      (reference "WATCHDOG_RELAY_COILS1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_Molex:Molex_SL_171971-0002_1x02_P2.54mm_Vertical")
     )
     (path "/346311ef-7b1f-4644-ae2b-5cf442f28312"
       (reference "reset_switch1") (unit 1) (value "100SP1T1B1M2QEH") (footprint "switch:100SP1T1B1M2QEH")
     )
     (path "/00000000-0000-0000-0000-0000621879a2"
-      (reference "wheel_speed_sensor1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_Molex:Molex_CLIK-Mate_502382-0370_1x03-1MP_P1.25mm_Vertical")
+      (reference "wheel_speed_sensor1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_Molex:Molex_SL_171971-0003_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062188d06"
-      (reference "wheel_speed_sensor2") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_Molex:Molex_CLIK-Mate_502382-0370_1x03-1MP_P1.25mm_Vertical")
+      (reference "wheel_speed_sensor2") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_Molex:Molex_SL_171971-0003_1x03_P2.54mm_Vertical")
     )
   )
 )
